@@ -18,7 +18,7 @@ build-lists: true
 
 ---
 
-![inline 44%](/Users/nvh/Desktop/Screen Shot 2016-01-11 at 23.32.17.png)
+![inline 44%](Crusty.png)
 
 Protocol-Oriented Programming in Swift *(WWDC 2015 - Session 408)*
 
