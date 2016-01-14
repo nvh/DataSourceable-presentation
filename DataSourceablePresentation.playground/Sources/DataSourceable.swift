@@ -30,12 +30,3 @@ public extension CellProviding {
     }
     
 }
-
-//extension Array: DataContaining {
-//    public typealias ItemType = Element
-//    public var data: [ItemType] {
-//        return self
-//    }
-//}
-//
-//extension Array: TableViewDataSource, CellProviding {}

@@ -10,6 +10,13 @@ public func showTableViewWithDataSource(dataSource:UITableViewDataSource) {
     XCPlaygroundPage.currentPage.liveView = tableView
 }
 
+
+public extension UITableViewDataSource where Self: CellProviding {
+    public func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 3
+    }
+}
+
 public class TableViewDataSourceProxy: NSObject, UITableViewDataSource {
     var dataSource: TableViewDataSource
     
