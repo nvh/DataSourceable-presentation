@@ -17,7 +17,7 @@
 
     struct DataSource: TableViewDataSource {}
     extension DataSource {
-        #Fixed data
+        //Fixed data
     }
 
 
@@ -43,7 +43,7 @@
 # StringContaining
 
     public protocol StringContaining {
-      var strings: [String] { get }
+      var data: [String] { get }
     }
     extension TableViewDataSource where Self: StringContaining {
     }
@@ -95,10 +95,10 @@
 
 # Move everything but TableViewDataSource extension to DataSourceable.swift
 
-# Use JamesBond.Movie
+# Use Movie
 
     struct MovieDataSource: DataContaining, TableViewDataSource, CellProviding {
-        typealias ItemType = JamesBond.Movie
+        typealias ItemType = Movie
         var data = JamesBond.movies
     }
 
@@ -137,9 +137,9 @@
 
 #Conform Actor to SectionType
 
-    extension JamesBond.Actor: SectionType {
-        public typealias ItemType = JamesBond.Movie
-        public var data: [JamesBond.Movie] {
+    extension Actor: SectionType {
+        public typealias ItemType = Movie
+        public var data: [Movie] {
             return movies
         }
     }
@@ -147,8 +147,8 @@
 #Update MovieDataSource
 
     struct MovieDataSource: SectionContaining, TableViewDataSource, CellProviding {
-        typealias Section = JamesBond.Actor
-        typealias ItemType = JamesBond.Movie
+        typealias Section = Actor
+        typealias ItemType = Movie
         var sections = JamesBond.actors
     }
 
