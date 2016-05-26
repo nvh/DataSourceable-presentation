@@ -3,7 +3,7 @@ import UIKit
 
 public protocol DataContaining {
     associatedtype ItemType
-    var data: [ItemType] { get set }
+    var data: [ItemType] { get }
 }
 
 public protocol MutableDataContaining {
@@ -96,7 +96,7 @@ public protocol Movable {
 
 
 
-extension Movable where Self: DataContaining {
+extension Movable where Self: MutableDataContaining {
     mutating public func move(fromIndex: Int, toIndex: Int) {
         let item = data.removeAtIndex(fromIndex)
         data.insert(item, atIndex: toIndex)
