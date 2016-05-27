@@ -10,3 +10,7 @@ The playgrounds are the final playground of the live coding sessions.
 [DataSourceable](https://github.com/nvh/DataSourceable) is a library that implements an extended version the same principles as this demo.
 
 Video footage of some of the talks can be found on [pomo.tv](http://www.pomo.tv/speakers/niels-van-hoorn/)
+
+If you're not interested in this, maybe I can cheer you up with a picture of my cat doing the 😛 emoji:
+
+<img src="https://raw.githubusercontent.com/nvh/DataSourceable-presentation/master/cat.jpg" />
