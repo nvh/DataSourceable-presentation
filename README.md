@@ -11,6 +11,4 @@ The playgrounds are the final playground of the live coding sessions.
 
 Video footage of some of the talks can be found on [pomo.tv](http://www.pomo.tv/speakers/niels-van-hoorn/)
 
-If you're not interested in this, maybe I can cheer you up with a picture of my cat doing the 😛 emoji:
-
-<img src="https://raw.githubusercontent.com/nvh/DataSourceable-presentation/master/cat.jpg" />
+[![iOSCon presentation video](https://i.vimeocdn.com/video/572827119.jpg?mw=1920&mh=1080&q=70)](https://vimeo.com/168337920)
